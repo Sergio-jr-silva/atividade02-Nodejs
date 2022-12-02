@@ -1,0 +1,20 @@
+{
+  "name": "pastanodejs",
+  "version": "1.0.0",
+  "description": "Atividade 02 do curso de nodeJs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "Atividade"
+  ],
+  "author": "Sergio silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
