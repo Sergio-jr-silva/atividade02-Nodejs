@@ -16,5 +16,4 @@ connection.end();
 console.log('executou!');
 });
 }
-
 exports.execSQLQuery = execSQLQuery;

@@ -7,7 +7,7 @@ const mysql = require('mysql2');
 const connect = require('./conexao.js');
 
 
-// Pegando os Times da Tabela Campeonato, que foi criado no banco de dados
+ // Pegando os Times da Tabela Campeonato, que foi criado no banco de dados
 app.get('/times', (req, res) =>{
 res.setHeader("Access-Control-Allow-Origin","*");
 res.header('Access-Control-Allow-Methods','GET,PUT,POST,DELETE');
